@@ -1,7 +1,6 @@
 #AI Chat CLI
 
-## Project overview
-## Project overview
+##Project Overview
 A command-line AI assistant built using python and API integration.
 
 ##FEATURES
