@@ -1,30 +1,101 @@
-#AI Chat CLI
+# MNIST Digit Recognition Web App
 
-##Project Overview
-A command-line AI assistant built using python and API integration.
+A lightweight and interactive web application for handwritten digit recognition using a Convolutional Neural Network (CNN). Users can draw digits directly on a canvas, and the model predicts the result in real time.
 
-##FEATURES
--Multi-turn conversation
--Error handling
--History trimming
+---
 
-##Tech Stack
-Python, Requests API
+## 🚀 Features
 
-##Why I Built This
-I am learning AI engineering and building practical tools.
+- Real-time digit recognition from a drawing canvas  
+- High-accuracy CNN model (99%+)  
+- Fast inference and smooth user experience  
+- Simple to run and easy to deploy with Streamlit  
 
-##Future Plans
--Add Streamlit UI
--Add system prompt presets
+---
 
+## 📁 Project Structure
 
-
-ai.py explanation:
-this is an AI chat project using model groq, and to get the api key you need to send an email to "mingrui067@gamil" to request the usage of the ai. the apikey woukd be changed immediately after the time has past.
-
-
-aiproject.py explanation:
-this is a ai-training project, training the ai by fitting numbers with hand-written number image, then it would be tested by offering hand-written numbers to it and see the output. the accuracy of it would be calculated and the confusion matrix would be drawn.
+.
+├── app.py              # Streamlit web application
+├── train_cnn.py        # CNN training script
+├── model.pkl           # Serialized Predictor wrapper
+├── cnn_model.h5        # Trained TensorFlow CNN model
+├── requirement.txt     # Python dependencies
+├── README.md           # Project documentation
 
 
+
+---
+
+## 🛠 Installation
+
+### 1. Clone the repository
+
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+
+
+
+### 2. Install dependencies
+
+pip install -r requirement.txt
+
+
+
+---
+
+## 🧪 Training the Model (Optional)
+
+If you want to retrain the CNN model:
+
+python train_cnn.py
+
+
+
+This will generate:
+
+- `cnn_model.h5`  
+- `model.pkl`
+
+---
+
+## ▶️ Running the Web App
+
+Start the Streamlit app:
+
+streamlit run app.py
+
+
+
+Your browser will open automatically at:
+
+http://localhost:8501
+
+
+---
+
+## ✨ How It Works
+
+1. The user draws a digit on the canvas.  
+2. The drawing is converted to a 28×28 grayscale image.  
+3. The image is normalized and passed into the CNN model.  
+4. The model predicts the digit and displays the result instantly.  
+
+---
+
+## 📦 Dependencies
+
+- Python 3.8+
+- TensorFlow
+- Streamlit
+- NumPy
+- Pillow
+- streamlit-drawable-canvas
+
+All dependencies are listed in `requirement.txt`.
+
+---
+
+## 📜 License
+
+MIT License
