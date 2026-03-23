@@ -2,7 +2,7 @@
 
 A lightweight and interactive web application for handwritten digit recognition using a Convolutional Neural Network (CNN). Users can draw digits directly on a canvas, and the model predicts the result in real time.
 
----
+--
 
 ## 🚀 Features
 
