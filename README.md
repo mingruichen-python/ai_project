@@ -21,8 +21,6 @@ ai_project/
 ### Repository Information
 
 - **Language:** Python
-- **Created:** 28 days ago
-- **Last Updated:** March 27, 2026
 - **Status:** Active Development
 
 ---
