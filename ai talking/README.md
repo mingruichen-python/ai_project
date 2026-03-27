@@ -24,3 +24,6 @@ It maintains a rolling conversation history, handles API requests, and offers a 
 
 # Results
 The script successfully communicates with Groq’s LLaMA model, providing fast, low‑latency responses and maintaining a smooth interactive chat loop.
+
+
+(you can generate your own api at ‘https://console.groq.com’)
