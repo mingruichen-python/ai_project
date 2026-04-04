@@ -1,3 +1,5 @@
+#AI Chat Cli
+
 ## Project Overview
 This project is a lightweight command‑line chatbot client that connects to the Groq API and provides real‑time interaction with the llama‑3.1‑8b‑instant model.
 It maintains a rolling conversation history, handles API requests, and offers a simple REPL‑style chat experience.
