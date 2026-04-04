@@ -24,3 +24,7 @@ It maintains a rolling conversation history, handles API requests, and offers a 
 
 ## Example
 <img width="2139" height="665" alt="屏幕截图 2026-04-04 204523" src="https://github.com/user-attachments/assets/b57eef42-497d-49d3-88d3-a58f7da9b38c" />
+
+## Future Improvements
+- Add GUI interface
+- Improve response quality
